@@ -1,0 +1,49 @@
+.slika{
+    height: 500px;
+    background-image: url("/assets/AboutUSpozadina.jpg");
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+.Baner{
+    position: fixed;
+    bottom: 0px;
+
+
+
+    padding-bottom: 60px;
+ 
+    align-items: center;
+    color: #fff;
+}
+
+.H11{
+    font-size: 45px;
+    padding-right: 30%;
+    
+}
+
+
+
+
+    
+  
+
+
+
+.Onama{
+    position: fixed;
+    bottom: 0px;
+
+    overflow-x: hidden;
+    position: relative;
+    padding-left: 6%;
+    padding-right: 6%;
+    
+    justify-content:space-between;
+    align-items: center;
+    font-size: 30px;
+}

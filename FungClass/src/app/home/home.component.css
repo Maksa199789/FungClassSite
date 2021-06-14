@@ -1,0 +1,78 @@
+.slika{
+    height: 100vh;
+    background-image: url("/assets/Pozadina.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+.Baner{
+    
+    overflow-x: hidden;
+    position: relative;
+    padding: 10% 6%;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+}
+
+.H11{
+    font-size: 75px;
+    padding-right: 30%;
+}
+
+.H66{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 55%;
+    font-weight: 600;
+    color: #64AAFF;
+}
+
+
+
+.dugme{
+    margin-top: 15px;
+    padding: 15px 30px;
+    border: 0;
+    background-color: #64AAFF;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 20px;
+    
+}
+
+
+
+@media screen and (max-width: 768px){
+    
+    .Baner{
+        align-items: center;
+        padding: 14% 6%;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .H11{
+        
+        font-size: 60px;
+        padding-right: 15%;
+    }
+    
+    .H66{
+        font-size: 14px;
+        padding-top: 15px;
+        padding-right: 45%;
+        font-weight: 600;
+        color: #64AAFF;
+    }
+
+    .dugme{
+        margin-top: 20px;
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+  
+}

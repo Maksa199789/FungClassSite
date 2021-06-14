@@ -1,0 +1,97 @@
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+  
+}
+
+.Logo{
+    color: rgba(100, 170, 255, 1);
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+
+
+.Linkovi {
+    padding-left: 40;
+    flex:1;
+    text-align: right;
+    
+    
+}
+
+.Linkovi li{
+    list-style: none;
+    display: inline;
+    padding: 8px relative 12px;
+    position: relative;
+    margin-right: 55px;
+    
+}
+
+.Linkovi li a{
+    padding: center;
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.Mobilni-ikona{
+    display:none;
+}
+
+.Mobilni-ikona div{
+    width: 22px;
+    height: 2px;
+    background-color: rgb(250, 250, 250);
+    margin: 5px;
+    cursor: pointer;
+    
+}
+
+
+
+@media screen and (max-width: 768px){
+    
+    body{
+        overflow-x: hidden;
+    }
+    
+    .Linkovi {
+        position: fixed;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #f7f7f7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+
+        
+        
+    }
+    .Linkovi li{
+        padding-top: 20px;
+        opacity: 0;
+    }
+
+    .Mobilni-ikona{
+        display: block;
+        cursor: pointer;
+    }
+  
+}
+
+
+
+

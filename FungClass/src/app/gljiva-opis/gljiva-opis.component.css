@@ -1,0 +1,37 @@
+.kartica{
+    background-color: turquoise;
+    margin-right: 50%;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.kartica h1 {
+padding-left: 5%;
+padding-bottom: 5px;
+}
+.kartica h2{
+    padding-left: 5%;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.ZAsad{
+    margin-left: 5%;
+}
+
+.kartica h3{
+    font-size: 16px;
+    padding-left: 5%;
+    padding-bottom: 5px;
+}
+img {
+    width: 200px;
+    height: 300px;
+    
+}
+.slika{
+    width: 20%;
+    height: 10%;
+    float: right;
+ 
+}
